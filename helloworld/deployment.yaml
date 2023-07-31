@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: helloworld-app-container
-        image: "quay.io/fxiang1/helloworld:0.0.1"
+        image: "quay.io/barneygumble78/do288-apache:latest"
         imagePullPolicy: IfNotPresent
         ports:
           - containerPort: 3002
