@@ -6,7 +6,6 @@ metadata:
   labels:
     app: helloworld-app
 spec:
-  type: NodePort
   ports:
     - port: 3002
       targetPort: 3002
