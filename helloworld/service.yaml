@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: helloworld-app-svc
+  namespace: helloworld-dev
   labels:
     app: helloworld-app
 spec:
